@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,300;1,400&family=Roboto:wght@300;400;700&display=swap');
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;  
+}
+.max-width{
+	max-width: 1300px;
+	padding: 0 80px;
+	margin: auto;
+}
+/*Style for Navbar Setion*/
+.navbar{
+	position:fixed;
+	width:100%;
+	padding:15px 0px;
+	font-family: 'Roboto', sans-serif;
+	background:black;
+	z-index: 1;
+}
+.navbar.sticky{
+	padding:15px;
+	background:tomato;
+}
+.navbar .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar .logo a{
+	color: white;
+	font-size: 35px;
+	font-weight: 600;
+}
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar .menu li a{
+ display: block;
+ color: white;
+ font-size: 20px;
+ font-weight: 700;
+ margin-left: 30px;
+ transition: all 0.3s ease;
+}	
+.navbar .menu li a:hover{
+	color: silver;
+}
+body {
+	display: flex;
+	background:url("photos/gym.jpg")no-repeat center;
+	font-family: "Montserrat", sans-serif;
+	height:100vh;
+	min-height: 1150px;
+	max-height: 550px;
+	max-width: 500px;
+	color:white;
+	background-size: cover;
+	background-attachment:scroll;
+	text-align: center;
+}
+.header1
+{
+    font-size: 50px;
+    font-weight:800;
+    position: relative;
+    top: 150px;  
+	left: 250px;
+}
+.paragraph1
+{
+	position: relative;
+    top: 450px; 
+	font-size: 25px;
+}

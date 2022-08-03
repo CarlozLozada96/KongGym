@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,300;1,400&family=Roboto:wght@300;400;700&display=swap');
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;  
+}
+.max-width{
+	max-width: 1300px;
+	padding: 0 80px;
+	margin: auto;
+}
+/*Style for Navbar Setion*/
+.navbar{
+	position:fixed;
+	width:100%;
+	padding:15px 0px;
+	font-family: 'Roboto', sans-serif;
+	background:black;
+	z-index: 1;
+}
+.navbar .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar .logo a{
+	color: white;
+	font-size: 35px;
+	font-weight: 600;
+}
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar .menu li a{
+ display: block;
+ color: white;
+ font-size: 20px;
+ font-weight: 700;
+ margin-left: 30px;
+ transition: all 0.3s ease;
+}	
+.navbar .menu li a:hover{
+	color: silver;
+}
+body {
+	font-family: "Montserrat", sans-serif;
+	color:white;
+	background-size: cover;
+	background-attachment:scroll;
+}
+
+.home .max-width{
+	margin:auto 0 auto 30px;
+}
+.home .home-content .text-1{
+     font-size: 25px;
+     font-weight:800;
+     margin-right: -3px;
+}
+.home .home-content .text-2{
+     font-size: 50px;
+     font-weight:800;
+     margin-left:-3px;
+	
+}
+.home .home-content .text-3{
+     font-size: 30px;
+}
+.home .home-content a{
+	display:inline-block;
+	background:black;
+	color:white;
+	font-size:20px;
+	padding:12px 36px;
+	margin-top:30px;
+    border-radius: 20px;
+}
+.home .home-content a:hover{
+   color:white;
+   background:grey;
+}
+.header0{
+    color: black;
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+    left: 400px;
+
+}
+.image1{
+    position: relative;
+    top:100px;
+    display: flex;
+    justify-content: center;
+}
+.image2{
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.image3{
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.header1{
+    color: black;
+    position: relative;
+    top: 100px;
+    left: 620px;
+    width:100px;
+    
+}
+.header2{
+    color: black;
+    position: relative;
+    top: 100px;
+    left: 620px;
+    width:100px;
+}
+.header3{
+    color: black;
+    position: relative;
+    top: 100px;
+    left: 620px;
+    width:100px;
+}

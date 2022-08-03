@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,300;1,400&family=Roboto:wght@300;400;700&display=swap');
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;  
+}
+.max-width{
+	max-width: 1300px;
+	padding: 0 80px;
+	margin: auto;
+}
+/*Style for Navbar Setion*/
+.navbar{
+	position:fixed;
+	width:100%;
+	padding:15px 0px;
+	font-family: 'Roboto', sans-serif;
+	background:black;
+	z-index: 1;
+}
+.navbar .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar .logo a{
+	color: white;
+	font-size: 35px;
+	font-weight: 600;
+}
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar .menu li a{
+ display: block;
+ color: white;
+ font-size: 20px;
+ font-weight: 700;
+ margin-left: 30px;
+ transition: all 0.3s ease;
+}	
+.navbar .menu li a:hover{
+	color: silver;
+}
+body {
+    display: flex;
+	background:url("photos/gym.jpg")no-repeat center;
+	height:100vh;
+	background-size: cover;
+	background-attachment:scroll;
+	text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+  
+  .signup-box {
+    width: 360px;
+    height: 620px;
+    background-color: white;
+    border-radius: 3px;
+    position: relative;
+    left: 500px;
+    top:70px;
+  }
+  
+  .login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:silver;
+    color: white;
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .para-2 a {
+    color: silver;
+  }
+  
+  
